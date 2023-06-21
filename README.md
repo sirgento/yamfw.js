@@ -17,7 +17,7 @@ Does one thing - puts text inside a div on your html thing.
 ## How to use
 
 1. Give your target content `<div>` a pretty ID, and add some arbitrary CSS class to your navigation buttons. Remember these names.
-1. 1. If you so desire, you can use a "real" CSS class from some framework or custom CSS you're gonna be using. It's just for the `document.getElementsByClassName` JS method.
+    1. If you so desire, you can use a "real" CSS class from some framework or custom CSS you're gonna be using. It's just for the `document.getElementsByClassName` JS method.
 2. Put a `<script>` tag somewhere in the tail end of your `index.html`, and create an yamfw instance:
 
 ```javascript
