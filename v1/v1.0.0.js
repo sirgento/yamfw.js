@@ -27,9 +27,6 @@ class Yamfw {
     }
 
     async loadHtml(elementId) {
-        if (elementId == null) {
-            return;
-        }
         let path = "./" + this.whereFiles + elementId + (this.isMarkdown ? ".md" : ".html");
         let fetcher = await fetch(path);
         let fetched = await fetcher.text();
